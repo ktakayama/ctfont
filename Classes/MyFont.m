@@ -23,7 +23,7 @@
       CFRelease(font);
 
       CGDataProviderRelease(fontDataProvider);
-      CFRelease(cgFont);
+      CGFontRelease(cgFont);
    }
    return self;
 }
